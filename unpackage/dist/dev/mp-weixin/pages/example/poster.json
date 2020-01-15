@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "海报",
+  "usingComponents": {
+    "poster": "/components/wongPoster"
+  }
+}

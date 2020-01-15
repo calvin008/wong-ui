@@ -1,0 +1,1 @@
+<view class="container"><button data-event-opts="{{[['tap',[['openPost',['$event']]]]]}}" style="color:white;background:linear-gradient(to left, #f58365, #ff188a);" bindtap="__e">打开海报</button><block wx:if="{{posterShow}}"><poster vue-id="1" bind:__l="__l"></poster></block></view>

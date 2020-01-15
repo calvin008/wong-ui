@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Wong-UI组件",
+  "usingComponents": {
+    "pull-refresh": "/components/pull-refresh"
+  }
+}

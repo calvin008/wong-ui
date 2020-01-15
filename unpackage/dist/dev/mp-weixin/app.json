@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/element/element",
+    "pages/example/example",
+    "pages/about/about",
+    "pages/example/swiper",
+    "pages/example/nav",
+    "pages/example/poster"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Wong-UI",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#c0c4cc",
+    "selectedColor": "#2c2c2c",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/element/element",
+        "iconPath": "static/component.png",
+        "selectedIconPath": "static/component-current.png",
+        "text": "组件"
+      },
+      {
+        "pagePath": "pages/example/example",
+        "iconPath": "static/example.png",
+        "selectedIconPath": "static/example-current.png",
+        "text": "示例"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "iconPath": "static/about.png",
+        "selectedIconPath": "static/about-current.png",
+        "text": "关于"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

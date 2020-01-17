@@ -142,7 +142,10 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 21));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};}var PullRefresh = function PullRefresh() {return __webpack_require__.e(/*! import() | components/pull-refresh */ "components/pull-refresh").then(__webpack_require__.bind(null, /*! @/components/pull-refresh.vue */ 64));};
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 21));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};}var PullRefresh = function PullRefresh() {return __webpack_require__.e(/*! import() | components/pull-refresh */ "components/pull-refresh").then(__webpack_require__.bind(null, /*! @/components/pull-refresh.vue */ 64));};var WongButton = function WongButton() {return __webpack_require__.e(/*! import() | components/element/wongButton */ "components/element/wongButton").then(__webpack_require__.bind(null, /*! @/components/element/wongButton.vue */ 71));};
+
+
+
 
 
 
@@ -182,7 +185,8 @@ __webpack_require__.r(__webpack_exports__);
 var windowWidth = 0,scrollTimer = false,tabBar;var _default =
 {
   components: {
-    PullRefresh: PullRefresh },
+    PullRefresh: PullRefresh,
+    WongButton: WongButton },
 
   data: function data() {
     return {

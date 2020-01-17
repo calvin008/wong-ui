@@ -133,7 +133,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var poster = function poster() {return __webpack_require__.e(/*! import() | components/wongPoster */ "components/wongPoster").then(__webpack_require__.bind(null, /*! @/components/wongPoster.vue */ 71));};var _default =
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var poster = function poster() {return __webpack_require__.e(/*! import() | components/wongPoster */ "components/wongPoster").then(__webpack_require__.bind(null, /*! @/components/wongPoster.vue */ 76));};var _default =
 
 
 

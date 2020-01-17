@@ -14,4 +14,215 @@
 
 
 /*每个页面公共css */
+/**
+ * wongUi for uniApp  v1.0 
+   by 王汉卿
+ */
+/* 列表 */
+.list-bar {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	position: relative;
+	padding-left: 20rpx;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	min-height: 100rpx;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	color:#2c2c2c;
+	border-bottom:1px solid rgba(0, 0, 0, 0.1);
+}
+/* 盒子 */
+.box-f {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow:wrap;
+	        flex-flow:wrap;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+}
+.box-b {
+	display:block;
+}
+/* 边距 */
+.margin-tb {
+	margin-top: 20rpx;
+	margin-bottom: 20rpx;
+}
+.margin {
+	margin:20rpx;
+}
+.margin-left {
+	margin-left: 40rpx;
+}
+/* 色彩 */
+.white-color {
+	color:#FFFFFF;
+}
+.red-color {
+	color:##FF0000;
+}
+/* button */
+.w-btn {
+	position: relative;
+	border: 0rpx;
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: inline-flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	box-sizing: border-box;
+	padding: 0 30rpx;
+	font-size: 28rpx;
+	height: 64rpx;
+	line-height: 1;
+	text-align: center;
+	text-decoration: none;
+	overflow: visible;
+	margin-left: initial;
+	-webkit-transform: translate(0rpx, 0rpx);
+	        transform: translate(0rpx, 0rpx);
+	margin-right: initial;
+}
+.w-btn.button-hover {
+	-webkit-transform: translate(1rpx, 1rpx);
+	        transform: translate(1rpx, 1rpx);
+}
+.w-btn::after {
+	display: none;
+}
+/* 大按钮 */
+.big {
+	padding: 0 40rpx;
+	font-size: 32rpx;
+	width:90%;
+	height: 80rpx;
+}
+/* 中按钮 */
+.sm {
+	padding: 0 20rpx;
+	font-size: 20rpx;
+	height: 48rpx;
+}
+.radius {
+	border-radius: 60rpx;
+}
+.hollow-red {
+	border: 1rpx solid #ff0000;
+	color:#ff0000;
+}
+.hollow-blue {
+	border: 1rpx solid #007AFF;
+	color:#007AFF;
+}
+.hollow-black {
+	border:1rpx solid #2c2c2c;
+	color:#2c2c2c;
+}
+/* 背景 */
+.bg-white {
+	background-color: #FFFFFF;
+}
+.bg-black {
+	background-color: #2C2C2C;
+}
+.bg-blue {
+	background-color: #007AFF;
+}
+.bg-grey {
+	background-color:#c0c4cc;
+}
+/* 线条 */
+.line-red {
+	color:#FF0000;
+}
+.line-red::after {
+	border-color: #ff0000;
+}
+/* 阴影 */
+.shadow {
+	box-shadow: 6rpx 6rpx 8rpx #2C2C2C;
+}
+/* swiper轮播 */
+.screen-swiper {
+		min-height: 375rpx;
+}
+.screen-swiper image,
+	.screen-swiper video,
+	.swiper-item image,
+	.swiper-item video {
+		width: 100%;
+		display: block;
+		height: 100%;
+		margin: 0;
+		pointer-events: none;
+}
+.card-swiper {
+		height: 420rpx !important;
+}
+.card-swiper .swiper-item {
+		width: 610rpx !important;
+		left: 70rpx;
+		box-sizing: border-box;
+		padding: 40rpx 0rpx 70rpx;
+		overflow: initial;
+}
+.card-swiper swiper-item .swiper-item {
+		width: 100%;
+		display: block;
+		height: 100%;
+		border-radius: 10rpx;
+		-webkit-transform: scale(0.9);
+		        transform: scale(0.9);
+		-webkit-transition: all 0.2s ease-in 0s;
+		transition: all 0.2s ease-in 0s;
+		overflow: hidden;
+}
+.card-swiper swiper-item.cur .swiper-item {
+		-webkit-transform: none;
+		        transform: none;
+		-webkit-transition: all 0.2s ease-in 0s;
+		transition: all 0.2s ease-in 0s;
+}
+.tower-swiper {
+		height: 420rpx;
+		position: relative;
+		max-width: 750rpx;
+		overflow: hidden;
+}
+.tower-swiper .tower-item {
+		position: absolute;
+		width: 300rpx;
+		height: 380rpx;
+		top: 0;
+		bottom: 0;
+		left: 50%;
+		margin: auto;
+		-webkit-transition: all 0.2s ease-in 0s;
+		transition: all 0.2s ease-in 0s;
+		opacity: 1;
+}
+.tower-swiper .tower-item.none {
+		opacity: 0;
+}
+.tower-swiper .tower-item .swiper-item {
+		width: 100%;
+		height: 100%;
+		border-radius: 6rpx;
+		overflow: hidden;
+}
+.tower-swiper .tower-item {
+		-webkit-transform: scale(calc(0.5 + var(--index) / 10));
+		        transform: scale(calc(0.5 + var(--index) / 10));
+		margin-left: calc(var(--left) * 100rpx - 150rpx);
+		z-index: var(--index);
+}
 

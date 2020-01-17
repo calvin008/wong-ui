@@ -21,7 +21,9 @@
 				:current="tabCurrentIndex" 
 				@change="changeTab"
 			>
-				<swiper-item>1</swiper-item>
+				<swiper-item>
+					<WongButton></WongButton>
+				</swiper-item>
 				<swiper-item>2</swiper-item>
 				<swiper-item>3</swiper-item>
 				<swiper-item>4</swiper-item>
@@ -35,10 +37,12 @@
 
 <script>
 	import PullRefresh from '@/components/pull-refresh.vue';
+	import WongButton from '@/components/element/wongButton.vue';
 	let windowWidth = 0, scrollTimer = false,tabBar;
 	export default {
 		components: {
-			PullRefresh
+			PullRefresh,
+			WongButton
 		},
 		data() {
 			return {

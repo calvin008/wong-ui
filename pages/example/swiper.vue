@@ -24,7 +24,6 @@
 				</view>
 			</view>
 		</view>
-		
 	</view>
 </template>
 
@@ -121,14 +120,6 @@
 </script>
 
 <style>
-	.list-bar {
-		display: flex;
-		position: relative;
-		align-items: center;
-		min-height: 100upx;
-		justify-content: space-between;
-		color:#2c2c2c;
-	}
 	.screen-swiper {
 		min-height: 375upx;
 	}
@@ -145,7 +136,7 @@
 	}
 	
 	.card-swiper {
-		height: 420upx !important;
+		height: 560upx !important;
 	}
 	
 	.card-swiper swiper-item {

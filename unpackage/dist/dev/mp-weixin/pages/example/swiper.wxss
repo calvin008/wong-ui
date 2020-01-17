@@ -1,18 +1,4 @@
 
-.list-bar {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: flex;
-	position: relative;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	        align-items: center;
-	min-height: 100rpx;
-	-webkit-box-pack: justify;
-	-webkit-justify-content: space-between;
-	        justify-content: space-between;
-	color:#2c2c2c;
-}
 .screen-swiper {
 	min-height: 375rpx;
 }
@@ -27,7 +13,7 @@
 	pointer-events: none;
 }
 .card-swiper {
-	height: 420rpx !important;
+	height: 560rpx !important;
 }
 .card-swiper swiper-item {
 	width: 610rpx !important;

@@ -1,6 +1,7 @@
 {
   "navigationBarTitleText": "Wong-UI组件",
   "usingComponents": {
-    "pull-refresh": "/components/pull-refresh"
+    "pull-refresh": "/components/pull-refresh",
+    "wong-button": "/components/element/wongButton"
   }
 }

@@ -15,4 +15,5 @@
 <style>
 	/*每个页面公共css */
 	@import "wong-ui/wong.css";
+	@import "wong-ui/icon.css";
 </style>

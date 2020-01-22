@@ -1,11 +1,14 @@
 {
   "pages": [
-    "pages/element/element",
-    "pages/example/example",
+    "pages/index/index",
     "pages/about/about",
-    "pages/example/swiper",
-    "pages/example/nav",
-    "pages/example/poster"
+    "pages/index/swiper",
+    "pages/index/nav",
+    "pages/index/poster",
+    "pages/index/button",
+    "pages/index/icon",
+    "pages/index/form",
+    "pages/index/avatar"
   ],
   "subPackages": [],
   "window": {
@@ -21,16 +24,10 @@
     "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath": "pages/element/element",
+        "pagePath": "pages/index/index",
         "iconPath": "static/component.png",
         "selectedIconPath": "static/component-current.png",
         "text": "组件"
-      },
-      {
-        "pagePath": "pages/example/example",
-        "iconPath": "static/example.png",
-        "selectedIconPath": "static/example-current.png",
-        "text": "示例"
       },
       {
         "pagePath": "pages/about/about",
@@ -40,6 +37,5 @@
       }
     ]
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap65.json"
+  "usingComponents": {}
 }

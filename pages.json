@@ -1,15 +1,9 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/element/element",
+			"path": "pages/index/index",
 			"style": {
 				"navigationBarTitleText": "Wong-UI组件"
-			}
-		},
-		{
-			"path": "pages/example/example",
-			"style": {
-				"navigationBarTitleText": "Wong-UI示例"
 			}
 		},
 		{
@@ -19,21 +13,45 @@
 			}
 		},
 		{
-			"path": "pages/example/swiper",
+			"path": "pages/index/swiper",
 			"style": {
 				"navigationBarTitleText": "轮播"
 			}
 		},
 		{
-			"path": "pages/example/nav",
+			"path": "pages/index/nav",
 			"style": {
 				"navigationBarTitleText": "导航"
 			}
 		},
 		{
-			"path": "pages/example/poster",
+			"path": "pages/index/poster",
 			"style": {
 				"navigationBarTitleText": "海报"
+			}
+		},
+		{
+			"path": "pages/index/button",
+			"style": {
+				"navigationBarTitleText": "按钮"
+			}
+		},
+		{
+			"path": "pages/index/icon",
+			"style": {
+				"navigationBarTitleText": "图标"
+			}
+		},
+		{
+			"path": "pages/index/form",
+			"style": {
+				"navigationBarTitleText": "表单"
+			}
+		},
+		{
+			"path": "pages/index/avatar",
+			"style": {
+				"navigationBarTitleText": "头像"
 			}
 		}
 	],
@@ -48,24 +66,17 @@
 		"selectedColor": "#2c2c2c",
 		"borderStyle": "white",
 		"backgroundColor": "#ffffff",
-		"list":[
-			{
-				"pagePath":"pages/element/element",
-				"iconPath":"static/component.png",
-				"selectedIconPath":"static/component-current.png",
-				"text":"组件"
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/component.png",
+				"selectedIconPath": "static/component-current.png",
+				"text": "组件"
 			},
 			{
-				"pagePath":"pages/example/example",
-				"iconPath":"static/example.png",
-				"selectedIconPath":"static/example-current.png",
-				"text":"示例"
-			},
-			{
-				"pagePath":"pages/about/about",
-				"iconPath":"static/about.png",
-				"selectedIconPath":"static/about-current.png",
-				"text":"关于"
+				"pagePath": "pages/about/about",
+				"iconPath": "static/about.png",
+				"selectedIconPath": "static/about-current.png",
+				"text": "关于"
 			}
 		]
 	}

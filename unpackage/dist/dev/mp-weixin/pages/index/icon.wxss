@@ -1,0 +1,8 @@
+
+.sz-sm {
+	font-size: 16px;
+}
+.sz-big {
+	font-size: 40px;
+}
+
